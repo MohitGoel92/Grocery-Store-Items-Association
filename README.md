@@ -53,8 +53,14 @@ results = list(rules)
 ```
 
 - The min_support is the frequency of the item in all transactions. As the dataset under study is a week's worth of data, the min_support is calulated by:
+  
   - (3 products sold per day x 7 days) / 7500 total transactions = 21/7500 = 0.0028 = 0.003 (3 d.p)
 
+- The min_confidence has been given a value of 0.2, which states that we only wish to see association rules that are at least 20% correct. In other words, a min_confidence value of 0.2 states that if item I1 is picked, there is a probability of 20% that item I2 is picked thereafter, if we are analysing the association rule of items I1 and I2.
+
+- The min_lift is set to three as values that are equal to or greater than three are interpreted as a "highly relevant" or a "high strength" rule.
+
+- The min_length is set to 2 which states that the minimum number of items per transaction must be 2, therefore not taking single item transactions into consideration.
 
 
 ### References
