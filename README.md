@@ -70,7 +70,8 @@ The association rules are already sorted by their relevance which is a combinati
 ```
 In [1]: results[0]
 
-Out[1]: RelationRecord(items=frozenset({'light cream', 'chicken'}), support=0.004532728969470737, ordered_statistics=[OrderedStatistic(items_base=frozenset({'light cream'}), items_add=frozenset({'chicken'}), confidence=0.29059829059829057, lift=4.84395061728395)])
+Out[1]: RelationRecord(items=frozenset({'light cream', 'chicken'}), support=0.004532728969470737, 
+ordered_statistics=[OrderedStatistic(items_base=frozenset({'light cream'}), items_add=frozenset({'chicken'}), confidence=0.29059829059829057, lift=4.84395061728395)])
 ```
 
 Interpretation of the above code:
