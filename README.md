@@ -2,7 +2,7 @@
 
 According to an article by the BBC, Tesco stated that men who buy babies nappies are likely to put cans of beer in their shopping trolley too. Research by Tesco revealed a strong link between nappies and beer purchases by male customers.
 
-In a general sense, if it were possible for stores to get an idea of their product association rules, they could be implemented to structure the store layout in order to increase the probability of higher customer spending. For instance, if a typical customer purchases bread and milk as part of their weekly shop, seperating these products in order to maximise the distance travelled between them in store will allow customers to be exposed to a wide range of products in between. This increases the probability of customers purchasing additional products they would not have initially bought.
+In a general sense, if it were possible for stores to get an idea of their product association rules, they could be implemented to structure the store layout in order to increase the probability of higher customer spending. For instance, if a typical customer purchases bread and milk as part of their weekly shop, seperating these products in order to maximise the distance travelled between them in store will allow customers to be exposed to a wide range of products in between. This increases the probability of customers purchasing additional products they would not have initially bought otherwise.
 
 **Task**
 
