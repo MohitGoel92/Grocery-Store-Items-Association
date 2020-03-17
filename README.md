@@ -52,7 +52,7 @@ rules = apriori(transactions, min_support = 0.003, min_confidence = 0.2, min_lif
 results = list(rules)
 ```
 
-- The min_support is the frequency of the item in all transactions. As the dataset under study is a week's worth of data, the min_support is calulated by:
+- The min_support is the frequency of the item in all transactions. As the dataset under study is a week's worth of data, the min_support is calculated by:
   
   - (3 products sold per day x 7 days) / 7500 total transactions = 21/7500 = 0.0028 = 0.003 (3 d.p)
 
