@@ -85,5 +85,4 @@ Interpretation of the above code:
 ### References
 
 BBC article:   http://news.bbc.co.uk/1/hi/uk/77622.stm
-
 Online LaTeX equation editor: https://www.codecogs.com/latex/eqneditor.php
