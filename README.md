@@ -8,8 +8,21 @@ We will be analysing the shopping baskets of customers in our dataset, learning 
 
 ## Association Rule Learning
 
+"People who bought item X also bought item Y", "These items are frequently bought together", or "Those who watched program A also watched program B". In essence, this is what association rule learning is about.
+
+## Apriori Algorithm
+
+This algorithm has three parts:
+- Support
+- Confidence
+- Lift
+
+E.g. Let's say we own a grocery store and wish to study our customers shopping behaviour. Using the Apriori algorithm, let's analyse the association between bread and milk. The "Support", "Confidence" and "Lift" are calculated as follows:
+
+<img src = 'Screen1.png' width='700'>
 
 
 
 ### References
 BBC article:   http://news.bbc.co.uk/1/hi/uk/77622.stm
+Online LaTeX equation editor: https://www.codecogs.com/latex/eqneditor.php
