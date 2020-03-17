@@ -39,7 +39,7 @@ E.g. Let's say we own a grocery store and wish to study our customers shopping b
 
 **Note**
 
-Apriori is deemed a slow algorithm because it goes through all the possible combinations, for instance, all the pairs, triples ... etc in one set; we therefore set limitations. These limitations come in the form of setting minimum or maximum thresholds for the algorithm, we will observe these in the code given below.
+Apriori is deemed a slow algorithm because it goes through all the possible combinations, for instance, all the pairs, triples ... etc in one set; we therefore set limitations. These limitations come in the form of setting minimum or maximum thresholds for the algorithm, we observe these in the code given below.
 
 ```
 # Training Apriori on the dataset
