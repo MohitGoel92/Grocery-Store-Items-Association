@@ -58,7 +58,7 @@ results = list(rules)
 
 - The min_confidence has been given a value of 0.2, which states that we only wish to see association rules that are at least 20% correct. In other words, a min_confidence value of 0.2 states that if item X is picked, there is a probability of 20% that item Y is picked thereafter (if we are analysing the association rule of items X and Y).
 
-- The min_lift is set to three as values that are equal to or greater than three are interpreted as a "highly relevant" or a "high strength" rule.
+- The min_lift is set to 3 as values that are equal to or greater than three are interpreted as a "highly relevant" or a "high strength" rule.
 
 - The min_length is set to 2 which states that the minimum number of items per transaction must be 2, therefore not taking single item transactions into consideration.
 
