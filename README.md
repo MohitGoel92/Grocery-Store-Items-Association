@@ -8,7 +8,7 @@ In a general sense, if it were possible for stores to get an idea of their produ
 
 Produce a machine learning model for the store under study which finds the association rules for the products sold in store. This model will be used to optimise the placement of products in store to further increase sales.
 
-We will be analysing the shopping baskets of customers in our dataset, learning product associations and customer behaviour. In order for us to learn these associations, we will be using the "Apriori" association rule algorithm.
+We will be analysing the shopping baskets (transactions) of customers in our dataset, learning product associations and customer behaviour. In order for us to learn these associations, we will be using the "Apriori" association rule algorithm.
 
 ## Association Rule Learning
 
@@ -24,6 +24,24 @@ This algorithm has three parts:
 E.g. Let's say we own a grocery store and wish to study our customers shopping behaviour. Using the Apriori algorithm, let's analyse the association between bread and milk. The "Support", "Confidence" and "Lift" are calculated as follows:
 
 <img src = 'Screen1.png' width='700'>
+
+**Note**
+
+- If the value of lift < 1, there is no association between bread and milk. Therefore having bread in the customers basket does not increase the occurence of having milk.
+- If the value of lift > 1, there is an association between bread and milk. Therefore, the higher the lift, the higher the chances of milk being picked are if bread has already been picked.
+
+**Steps to producing the Apriori algorithm**
+
+- **Step 1:** Set a minimum support and confidence.
+- **Step 2:** Take all the subsets in the transactions having higher support than minimum support.
+- **Step 3:** Take all the rules of these subsets having higher confidence than minimum confidence.
+- **Step 4:** Sort the rules by decreasing fit.
+
+**Note**
+
+Apriori is deemed a slow algorithm because it goes through all the possible combinations, for instance, all the pairs, triples ... etc in one set; we therefore set limitations. These limitations come in the form of setting minimum or maximum thresholds for the algorithm, we will observe these in the code given below.
+
+
 
 
 
