@@ -62,6 +62,20 @@ results = list(rules)
 
 - The min_length is set to 2 which states that the minimum number of items per transaction must be 2, therefore not taking single item transactions into consideration.
 
+The rules are stored in the "results" list. To observe the strongest association rule, we input the code given below and observe the output given thereafter.
+
+**Note**
+The association rules are already sorted by their relevance which is a combination of the "Support", "Confidence" and "Lift".
+
+```
+In [1]: results[0]
+
+Out[1]: RelationRecord(items=frozenset({'light cream', 'chicken'}), support=0.004532728969470737, ordered_statistics=[OrderedStatistic(items_base=frozenset({'light cream'}), items_add=frozenset({'chicken'}), confidence=0.29059829059829057, lift=4.84395061728395)])
+```
+
+Interpretation of the above code:
+
+- 
 
 ### References
 BBC article:   http://news.bbc.co.uk/1/hi/uk/77622.stm
