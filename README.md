@@ -4,7 +4,7 @@ According to an article by the BBC, Tesco stated that men who buy babies nappies
 
 In a general sense, if it were possible for stores to get an idea of their product association rules, they could be implemented to structure the store layout in order to increase the probability of higher customer spending. For example, if a typical customer purchases bread and milk as part of their weekly shop, seperating these products in order to maximise the distance travelled between these two products in store will allow customers to be exposed to a wide range of products in between. This increases the probability of customers purchasing additional products they would not have initially bought.
 
-We will be analysing the shopping baskets of customers in our dataset, to learn product associations and therefore customer behaviour. In order for us to learn these associations, we will be using the "Apriori" association rule algorithm.
+We will be analysing the shopping baskets of customers in our dataset, learning product associations and customer behaviour. In order for us to learn these associations, we will be using the "Apriori" association rule algorithm.
 
 ## Association Rule Learning
 
