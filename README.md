@@ -28,7 +28,7 @@ E.g. Let's say we own a grocery store and wish to study our customers shopping b
 **Note**
 
 - If the value of lift < 1, there is no association between bread and milk. Therefore having bread in the customers basket does not increase the occurence of having milk.
-- If the value of lift > 1, there is an association between bread and milk. Therefore, the higher the lift, the higher the chances of milk being picked are if bread has already been picked.
+- If the value of lift > 1, there is an association between bread and milk. Therefore, the higher the lift, the higher the chances of milk being picked if bread has already been picked.
 
 **Steps to producing the Apriori algorithm**
 
