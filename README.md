@@ -80,7 +80,7 @@ Interpretation of the above code:
 - For the first rule, we observe that light cream and chicken are commonly bought together.
 - The support value of 0.0045 suggests that 0.45% of the total transactions contained light cream (approx 1 in 200).
 - The confidence value of 0.29 tells us that for all the transactions that contain light cream, 29% of them also contain chicken. In other words, if a customer puts light cream in their shopping basket, they are 29% likely to also put chicken in their basket.
-- The lift value of 4.84 suggests that chicken is 4.84 times more likely to be bought by customers who buy light cream compared to the default likelihood of a customer purchasing chicken.
+- The lift value of 4.84 suggests that chicken is 4.84 times more likely to be bought by customers who buy light cream compared to the default likelihood of a customer purchasing chicken. As the lift is greater than 3, we conclude that the association between these products is strong.
 
 ### References
 
