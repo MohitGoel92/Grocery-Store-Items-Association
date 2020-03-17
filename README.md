@@ -83,5 +83,7 @@ Interpretation of the above code:
 - The lift value of 4.84 suggests that chicken is 4.84 times more likely to be bought by customers who buy light cream compared to the default likelihood of a customer purchasing chicken.
 
 ### References
+
 BBC article:   http://news.bbc.co.uk/1/hi/uk/77622.stm
+
 Online LaTeX equation editor: https://www.codecogs.com/latex/eqneditor.php
